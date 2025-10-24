@@ -38,4 +38,6 @@ public class Main {
                 .filter(name -> name.length() < 5) //Lambda
                 .forEach(System.out::println);
     }
+
+    //aweressdfghjhtrewrtzhkklöztreewghjk
 }
