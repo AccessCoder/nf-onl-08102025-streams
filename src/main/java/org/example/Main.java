@@ -31,5 +31,11 @@ public class Main {
                         System.out.println(s);
                     }
                 });
+
+        names.stream()
+                .map(String::toUpperCase) //Method Ref.
+                .sorted()
+                .filter(name -> name.length() < 5) //Lambda
+                .forEach(System.out::println);
     }
 }
