@@ -39,5 +39,5 @@ public class Main {
                 .forEach(System.out::println);
     }
 
-    //aweressdfghjhtrewrtzhkklöztreewghjk
+    //aweressdfghjhtrewrtzhkklöztreewghjki
 }
